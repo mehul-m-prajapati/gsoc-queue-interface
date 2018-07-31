@@ -14,7 +14,7 @@
 - Mentor: [Kókai Péter](https://github.com/Kokan)
 
 ### Links
-- [GSoC Proposal](notes/gsoc-proposal.pdf)
+- [Initial Draft - GSoC Proposal](https://github.com/balabit/syslog-ng/wiki/GSoC-2018-Proposal:-Queue-interface-(Mehul-Prajapati))
 - [Project on GSoC website](https://summerofcode.withgoogle.com/organizations/4514364854370304/#4935040471924736)
 
 ## Weekly Updates
