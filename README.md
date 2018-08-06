@@ -13,10 +13,10 @@
 > The syslog-ng has a queue for destinations, that has a current implementation as disk queue. The aim of this project is to develop a Redis based queue interface which could be an alternative to the disk queue.
 > [Redis](https://github.com/antirez/redis) is an open source in-memory data structure store, used as a database, cache and message broker.
 
-## Blog Posts:
+### Blog Posts:
 - [Medium](https://medium.com/@Mehul2802/compiling-syslog-ng-source-code-on-ubuntu-16-04-9bd93ecf02ef)
 
-## Design Diagram
+### Design Diagram
 ```
  --------                    ----------------                    -------------
 | Source | ================ | syslog-ng core | ================ | Destination | 
@@ -30,7 +30,7 @@
                                                  ---------------
 ```                          
 ---
-## Commits / Tasks
+### Commits / Tasks
 - [X] Develop dummy redis queue plugin
 - [X] Push log message in a serialized format. Pop a log message and deserialize it to obtain original data.
 - [X] Add redis server connection methods instead of dummy queue
@@ -45,10 +45,10 @@
 - [X] Implement rqtool to print-out data from redis server (Useful for debugging)
 - [ ] Develop functional test caes in python
 
-## Pull Request (The link might get changed in future because of code review modifications)
+### Pull Request (The link might get changed in future because of code review modifications)
 
 
-## To Do (In Future)
+### To Do (In Future)
 - Implement reliable and non-reliable redis queue
 - Limit number of messages that can be stored in redis (i.e. using overflow queue)
 - Redis as a cluster
