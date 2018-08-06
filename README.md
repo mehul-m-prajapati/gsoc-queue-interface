@@ -20,17 +20,30 @@
 ```
  --------                    ----------------                    -------------
 | Source | ================ | syslog-ng core | ================ | Destination | 
- --------                    ----------------                    -------------
-                                   ||
-                                   ||
-                                   ||
-                             ----------------      
-                            |  redis queue   |
-                            |    plugin      |
-                             ----------------
+ --------                    ----------------          ||        -------------
+                                                       ||
+                                                       ||
+                                                       ||
+                                                 ---------------      
+                                                |  redis queue  |
+                                                |    plugin     |
+                                                 ---------------
 ```                          
-## Commits
-
+---
+## Commits / Tasks
+- [X] Develop dummy redis queue plugin
+- [X] Push log message in a serialized format. Pop a log message and deserialize it to obtain original data.
+- [X] Add redis server connection methods instead of dummy queue
+- [X] Add following configurable parameters for redis queue plugin,
+* host address
+* port
+* auth
+* key name prefix
+* conn-timeout (redis server connection timeout)
+- [X] Handle backlog messages 
+- [X] Develop unit test cases
+- [X] Implement rqtool to print-out data from redis server (Useful for debugging)
+- [ ] Develop functional test caes in python
 
 ## Pull Request
 
@@ -38,3 +51,4 @@
 ## To Do (In Future)
 - Implement reliable and non-reliable redis queue
 - Limit number of messages that can be stored in redis (i.e. using overflow queue)
+- Redis as a cluster
