@@ -45,7 +45,7 @@
 - [X] Implement rqtool to print-out data from redis server (Useful for debugging)
 - [ ] Develop functional test caes in python
 
-## Pull Request
+## Pull Request (The link might get changed in future because of code review modifications)
 
 
 ## To Do (In Future)
