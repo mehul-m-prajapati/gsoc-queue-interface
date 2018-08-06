@@ -39,11 +39,11 @@
 * port
 * auth
 * key name prefix
-* conn-timeout (redis server connection timeout)
+* conn-timeout
 - [X] Handle backlog messages 
 - [X] Develop unit test cases
 - [X] Implement rqtool to print-out data from redis server (Useful for debugging)
-- [ ] Develop functional test caes in python
+- [ ] Develop functional test cases in python
 
 ### Pull Request (The link might get changed in future because of code review modifications)
 
