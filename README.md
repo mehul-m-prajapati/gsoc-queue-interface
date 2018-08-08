@@ -45,10 +45,11 @@
 - [X] Implement rqtool to print-out data from redis server (Useful for debugging)
 - [ ] Develop functional test cases in python
 
-### Pull Request (The link might get changed in future because of code review modifications)
+### Pull Request (This link might get changed in future because of code review modifications)
 
 
 ### To Do (In Future)
 - Implement reliable and non-reliable redis queue
 - Limit number of messages that can be stored in redis (i.e. using overflow queue)
 - Redis as a cluster
+- Merge rqtool and dqtool functionalities and develop qtool
