@@ -32,9 +32,9 @@
 ---
 ### Commits / Tasks
 - [X] [Develop dummy redis queue plugin](https://github.com/mehul-m-prajapati/syslog-ng/commit/f450a498dbf71d8f274047b5ee88830a664e0425)
-- [X] [Add push, pop, ack, rewind backlog methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/f450a498dbf71d8f274047b5ee88830a664e0425)
+- [X] [Add push, pop, ack, rewind backlog log queue methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/f450a498dbf71d8f274047b5ee88830a664e0425)
 - [X] [Add redis server connection methods instead of dummy queue](https://github.com/mehul-m-prajapati/syslog-ng/commit/aa4d15e52a74d562a5ae32bd10b6904759809111)
-- [X] [Add redis read, write and delete methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/d27ef47669bcfa45e47c3b838921c0721fabbcbb)
+- [X] [Develop redis read, write and delete methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/d27ef47669bcfa45e47c3b838921c0721fabbcbb)
 - [X] [Add following configurable parameters for redis queue plugin](https://github.com/mehul-m-prajapati/syslog-ng/commit/0ef82502f218a16ce891301611d653b9b9ca9820)
 * host address
 * port
@@ -44,7 +44,7 @@
 - [X] [Handle backlog messages](https://github.com/mehul-m-prajapati/syslog-ng/commit/eac566f3417987b33dc9fd20423ab978890719cb)
 - [X] [Develop unit test cases](https://github.com/mehul-m-prajapati/syslog-ng/commit/24121a18798004e6696b65ad7624ddb86284997d)
 - [X] [Implement rqtool to print-out data from redis server (Useful for debugging)](https://github.com/mehul-m-prajapati/syslog-ng/commit/62666321c48464057ca9dbac4f3008d9d6900a98)
-- [X] [Add RedisServer structure with connect, disconnect, reconnect, isconnected and sendcommand methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/1859d07733060703c87e6a38f299ceae8462ca3a)
+- [X] [Add RedisServer structure with connect, disconnect, reconnect, isconnected and send command methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/1859d07733060703c87e6a38f299ceae8462ca3a)
 - [ ] Develop functional test cases in python
 
 ### Pull Request (This link might get changed in future because of code review modifications)
@@ -53,5 +53,5 @@
 ### To Do (In Future)
 - Implement reliable and non-reliable redis queue
 - Limit number of messages that can be stored in redis (i.e. using overflow queue)
-- Redis as a cluster
+- Develop methods such thath Redis can work as a cluster
 - Merge rqtool and dqtool functionalities and develop qtool
