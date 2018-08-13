@@ -45,7 +45,9 @@
 - [X] [Develop unit test cases](https://github.com/mehul-m-prajapati/syslog-ng/commit/24121a18798004e6696b65ad7624ddb86284997d)
 - [X] [Implement rqtool to print-out data from redis server (Useful for debugging)](https://github.com/mehul-m-prajapati/syslog-ng/commit/62666321c48464057ca9dbac4f3008d9d6900a98)
 - [X] [Add RedisServer structure with connect, disconnect, reconnect, isconnected and send command methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/1859d07733060703c87e6a38f299ceae8462ca3a)
-- [ ] Develop functional test cases in python
+
+### Gist
+- [X] Develop functional test cases in python](https://gist.github.com/mehul-m-prajapati/46a9aa6a34b2f0b8ebb334093d7b60b1)
 
 ### Pull Request (This link might get changed in future because of code review modifications)
 
