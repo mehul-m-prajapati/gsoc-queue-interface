@@ -55,5 +55,5 @@
 ### To Do (In Future)
 - Implement reliable and non-reliable redis queue
 - Limit number of messages that can be stored in redis (i.e. using overflow queue)
-- Redis can as a cluster
+- Redis as a cluster
 - Merge rqtool and dqtool functionalities and develop qtool
