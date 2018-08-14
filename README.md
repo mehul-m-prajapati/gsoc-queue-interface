@@ -7,7 +7,7 @@
 - Email: mehulprajapati2802@gmail.com
 - Organization: [syslog-ng](https://github.com/balabit/syslog-ng)
 - Mentor: [Kókai Péter](https://github.com/Kokan)
-- Development Branch Tag: [queue-interface](https://github.com/mehul-m-prajapati/syslog-ng/tree/gsoc-2018)
+- Development Branch Tag: [gsoc-2018](https://github.com/mehul-m-prajapati/syslog-ng/tree/gsoc-2018)
 
 ### Project Abstract
 > The syslog-ng has a queue for destinations, that has a current implementation as disk queue. The aim of this project is to develop a Redis based queue interface which could be an alternative to the disk queue.
