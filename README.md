@@ -48,14 +48,12 @@
 - [X] [Develop Redis connect, disconnect, reconnect, isconnected and send command methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/1859d07733060703c87e6a38f299ceae8462ca3a)
 - [X] [Add Redis SET for listing only redis queues in rqtool](https://github.com/mehul-m-prajapati/syslog-ng/commit/d8d569ab4bf2f6bd3cef3e654b40231282e9da1f)
 
-### Gist
-- [X] [Develop functional test cases in python](https://gist.github.com/mehul-m-prajapati/46a9aa6a34b2f0b8ebb334093d7b60b1)
-
 ### Pull Request (This link might get changed in future because of code review modifications)
 
 
 ---
 ### To Do (In Future)
+- Develop functional test cases in python
 - Implement reliable and non-reliable redis queue
 - Limit number of messages that can be stored in redis (i.e. using overflow queue)
 - Redis as a cluster
