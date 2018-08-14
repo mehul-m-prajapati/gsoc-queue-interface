@@ -45,7 +45,7 @@
 - [X] [Handle backlog messages](https://github.com/mehul-m-prajapati/syslog-ng/commit/eac566f3417987b33dc9fd20423ab978890719cb)
 - [X] [Develop unit test cases](https://github.com/mehul-m-prajapati/syslog-ng/commit/24121a18798004e6696b65ad7624ddb86284997d)
 - [X] [Implement rqtool to print-out data from redis server (Useful for debugging)](https://github.com/mehul-m-prajapati/syslog-ng/commit/62666321c48464057ca9dbac4f3008d9d6900a98)
-- [X] [Add RedisServer structure with connect, disconnect, reconnect, isconnected and send command methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/1859d07733060703c87e6a38f299ceae8462ca3a)
+- [X] [Develop Redis connect, disconnect, reconnect, isconnected and send command methods](https://github.com/mehul-m-prajapati/syslog-ng/commit/1859d07733060703c87e6a38f299ceae8462ca3a)
 - [X] [Add Redis SET for listing only redis queues in rqtool](https://github.com/mehul-m-prajapati/syslog-ng/commit/d8d569ab4bf2f6bd3cef3e654b40231282e9da1f)
 
 ### Gist
