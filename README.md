@@ -49,7 +49,7 @@
 - [X] [Add Redis SET for listing only redis queues in rqtool](https://github.com/mehul-m-prajapati/syslog-ng/commit/d8d569ab4bf2f6bd3cef3e654b40231282e9da1f)
 
 ### Pull Request (This link might get changed in future because of code review modifications)
-
+- [balabit/syslog-ng/#2231](https://github.com/balabit/syslog-ng/pull/2231)
 
 ---
 ### To Do (In Future)
